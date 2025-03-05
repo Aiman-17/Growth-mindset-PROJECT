@@ -74,7 +74,7 @@ if uploaded_files:
                 file_name = file.name.replace(file_ext, ".xlsx")
                 mime_type = "applicstion/vnd.openxmlformats-officedocument.spreadsheet.ml.sheet"
             buffer.seek(0)
-
+                                       
 
             #Download Button
             st.download_button(
